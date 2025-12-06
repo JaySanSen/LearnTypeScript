@@ -12,15 +12,17 @@ Before diving into the language concepts, make sure your project is set up corre
 
 These are the core concepts you need to understand to write TypeScript and JavaScript code.
 
-2. **[Variables](./variables.md)** - Learn about variable declarations (`var`, `let`, `const`), data types, and hoisting.
+2. **[Variables](./variables.md)** - Learn about variable declarations (`var`, `let`, `const`), data types, and hoisting. Includes edge cases and gotchas.
 
 3. **[Type Annotations](./type-annotations.md)** - Understand how to add types to your variables and functions, and how TypeScript infers types automatically.
 
 4. **[Template Strings](./template-strings.md)** - Master string interpolation and multi-line strings using backticks.
 
-5. **[Arrays](./arrays.md)** - Work with typed arrays, array methods, and multi-type arrays.
+5. **[Arrays](./arrays.md)** - Work with typed arrays, array methods, and multi-type arrays. Covers sparse arrays, negative indices, and edge cases.
 
-6. **[Additional Types](./additional-types.md)** - Learn about special types: `void`, `null`, `undefined`, `never`, `any`, and union types.
+6. **[Additional Types](./additional-types.md)** - Learn about special types: `void`, `null`, `undefined`, `never`, `any`, and union types. Includes type narrowing and edge cases.
+
+7. **[Conditionals and Loops](./conditionals-and-loops.md)** - Master control flow with if statements, switch, and various loop constructs. Covers all loop types with detailed examples and edge cases.
 
 ## Learning Path
 
@@ -39,6 +41,8 @@ Follow this order for the best learning experience:
    ↓
 6. Additional Types (Special Types & Unions)
    ↓
+7. Conditionals and Loops (Control Flow)
+   ↓
    (More topics coming soon...)
 ```
 
@@ -47,19 +51,22 @@ Follow this order for the best learning experience:
 | Topic | Description |
 |-------|-------------|
 | [Initial Steps](./initial-step.md) | Project setup, TypeScript compilation, running your code |
-| [Variables](./variables.md) | Variable declarations, primitive types, arrays, enums, tuples, hoisting |
+| [Variables](./variables.md) | Variable declarations, primitive types, hoisting, edge cases |
 | [Type Annotations](./type-annotations.md) | Type syntax, inference, interfaces, unions, return types |
 | [Template Strings](./template-strings.md) | String interpolation, expressions, multi-line strings |
-| [Arrays](./arrays.md) | Array typing, methods, multi-type arrays, readonly arrays |
-| [Additional Types](./additional-types.md) | Void, null, undefined, never, any, union types, type narrowing |
+| [Arrays](./arrays.md) | Array typing, methods, sparse arrays, edge cases |
+| [Additional Types](./additional-types.md) | Void, null, undefined, never, any, unions, type narrowing, edge cases |
+| [Conditionals and Loops](./conditionals-and-loops.md) | if/else, switch, for, while, forEach, edge cases |
 
 ## Tips for Learning
 
 - Read each topic completely before moving to the next
+- Pay special attention to "Edge Cases and Gotchas" sections
 - Practice the examples by typing them into your `app.ts` file
 - Run `npm run build` to compile and execute your code
 - Experiment by modifying the examples and seeing what happens
 - Use the navigation links at the bottom of each page to move between topics
+- Test the edge cases mentioned—understanding gotchas is crucial
 
 ## Project Structure
 
@@ -72,7 +79,8 @@ LearnTypeScript/
 │   ├── type-annotations.md
 │   ├── template-strings.md
 │   ├── arrays.md
-│   └── additional-types.md
+│   ├── additional-types.md
+│   └── conditionals-and-loops.md
 ├── app.ts (your TypeScript code goes here)
 ├── tsconfig.json (TypeScript configuration)
 ├── package.json (project configuration)
