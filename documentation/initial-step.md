@@ -61,3 +61,7 @@ This command:
 - `tsconfig.json` - TypeScript configuration (created after `tsc --init`)
 - `build/` - Output directory for compiled JavaScript files
 - `package.json` - Project configuration and scripts
+
+---
+
+**← Back to:** [Documentation Guide](./guide.md) | **Next:** [Variables](./variables.md) →
