@@ -18,6 +18,10 @@ These are the core concepts you need to understand to write TypeScript and JavaS
 
 4. **[Template Strings](./template-strings.md)** - Master string interpolation and multi-line strings using backticks.
 
+5. **[Arrays](./arrays.md)** - Work with typed arrays, array methods, and multi-type arrays.
+
+6. **[Additional Types](./additional-types.md)** - Learn about special types: `void`, `null`, `undefined`, `never`, `any`, and union types.
+
 ## Learning Path
 
 Follow this order for the best learning experience:
@@ -31,6 +35,10 @@ Follow this order for the best learning experience:
    ↓
 4. Template Strings (String Manipulation)
    ↓
+5. Arrays (Collections & Methods)
+   ↓
+6. Additional Types (Special Types & Unions)
+   ↓
    (More topics coming soon...)
 ```
 
@@ -42,6 +50,8 @@ Follow this order for the best learning experience:
 | [Variables](./variables.md) | Variable declarations, primitive types, arrays, enums, tuples, hoisting |
 | [Type Annotations](./type-annotations.md) | Type syntax, inference, interfaces, unions, return types |
 | [Template Strings](./template-strings.md) | String interpolation, expressions, multi-line strings |
+| [Arrays](./arrays.md) | Array typing, methods, multi-type arrays, readonly arrays |
+| [Additional Types](./additional-types.md) | Void, null, undefined, never, any, union types, type narrowing |
 
 ## Tips for Learning
 
@@ -60,7 +70,9 @@ LearnTypeScript/
 │   ├── initial-step.md
 │   ├── variables.md
 │   ├── type-annotations.md
-│   └── template-strings.md
+│   ├── template-strings.md
+│   ├── arrays.md
+│   └── additional-types.md
 ├── app.ts (your TypeScript code goes here)
 ├── tsconfig.json (TypeScript configuration)
 ├── package.json (project configuration)

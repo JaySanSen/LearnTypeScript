@@ -160,4 +160,4 @@ console.log(result); // **John** is **25** years old
 
 ---
 
-**← Previous:** [Type Annotations](./type-annotations.md) | **Next:** [Functions](./functions.md) →
+**← Previous:** [Type Annotations](./type-annotations.md) | **Next:** [Arrays](./arrays.md) →
