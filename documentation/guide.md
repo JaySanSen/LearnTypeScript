@@ -24,6 +24,8 @@ These are the core concepts you need to understand to write TypeScript and JavaS
 
 7. **[Conditionals and Loops](./conditionals-and-loops.md)** - Master control flow with if statements, switch, and various loop constructs. Covers all loop types with detailed examples and edge cases.
 
+8. **[Functions](./functions.md)** - Learn function declarations, parameters (optional, default, rest), return types, and advanced features like overloading and generics.
+
 ## Learning Path
 
 Follow this order for the best learning experience:
@@ -43,6 +45,8 @@ Follow this order for the best learning experience:
    ↓
 7. Conditionals and Loops (Control Flow)
    ↓
+8. Functions (Reusable Code Blocks)
+   ↓
    (More topics coming soon...)
 ```
 
@@ -57,6 +61,7 @@ Follow this order for the best learning experience:
 | [Arrays](./arrays.md) | Array typing, methods, sparse arrays, edge cases |
 | [Additional Types](./additional-types.md) | Void, null, undefined, never, any, unions, type narrowing, edge cases |
 | [Conditionals and Loops](./conditionals-and-loops.md) | if/else, switch, for, while, forEach, edge cases |
+| [Functions](./functions.md) | Declarations, parameters, return types, generics, overloading |
 
 ## Tips for Learning
 
@@ -80,7 +85,8 @@ LearnTypeScript/
 │   ├── template-strings.md
 │   ├── arrays.md
 │   ├── additional-types.md
-│   └── conditionals-and-loops.md
+│   ├── conditionals-and-loops.md
+│   └── functions.md
 ├── app.ts (your TypeScript code goes here)
 ├── tsconfig.json (TypeScript configuration)
 ├── package.json (project configuration)
