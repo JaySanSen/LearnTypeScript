@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "rm -rf build/ && npm install && npx tsc && node ./build/app.js"
+    "cleanBuild": "rm -rf build/ && npm install && npx tsc && node ./build/app.js",
+    "build": "rm -rf build/ && npx tsc && node ./build/app.js"
   },
   "devDependencies": {
     "typescript": "5.9.3"
