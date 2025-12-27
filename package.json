@@ -1,9 +1,13 @@
 {
-  "scripts": {
-    "cleanBuild": "rm -rf build/ && npm install && npx tsc && node ./build/app.js",
-    "build": "rm -rf build/ && npx tsc && node ./build/app.js"
-  },
-  "devDependencies": {
-    "typescript": "5.9.3"
-  }
+	"scripts": {
+		"cleanBuild": "rm -rf build/ && npm install && npx tsc && node ./build/src/app.js",
+		"build": "rm -rf build/ && npx tsc && node ./build/src/app.js",
+		"format": "npx @biomejs/biome format --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.10",
+		"@types/jest": "^30.0.0",
+		"jest": "^30.2.0",
+		"typescript": "5.9.3"
+	}
 }

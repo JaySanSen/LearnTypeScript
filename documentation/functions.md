@@ -648,4 +648,4 @@ async function safeGetData(): Promise<string | null> {
 
 ---
 
-**← Previous:** [Conditionals and Loops](./conditionals-and-loops.md) | **Next:** [Objects](./objects.md) →
+**← Previous:** [Conditionals and Loops](./conditionals-and-loops.md) | **Next:** [Promises and Async/Await](./promises-and-async-await.md) →

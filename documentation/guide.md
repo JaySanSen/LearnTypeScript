@@ -26,6 +26,8 @@ These are the core concepts you need to understand to write TypeScript and JavaS
 
 8. **[Functions](./functions.md)** - Learn function declarations, parameters (optional, default, rest), return types, and advanced features like overloading and generics.
 
+9. **[Promises and Async/Await](./promises-and-async-await.md)** - Master asynchronous programming from callbacks to modern async/await syntax. Understand how to handle operations that take time.
+
 ## Learning Path
 
 Follow this order for the best learning experience:
@@ -47,6 +49,8 @@ Follow this order for the best learning experience:
    ↓
 8. Functions (Reusable Code Blocks)
    ↓
+9. Promises and Async/Await (Asynchronous Operations)
+   ↓
    (More topics coming soon...)
 ```
 
@@ -62,6 +66,7 @@ Follow this order for the best learning experience:
 | [Additional Types](./additional-types.md) | Void, null, undefined, never, any, unions, type narrowing, edge cases |
 | [Conditionals and Loops](./conditionals-and-loops.md) | if/else, switch, for, while, forEach, edge cases |
 | [Functions](./functions.md) | Declarations, parameters, return types, generics, overloading |
+| [Promises and Async/Await](./promises-and-async-await.md) | Callbacks, promises, async/await, error handling, parallel operations |
 
 ## Tips for Learning
 
@@ -86,7 +91,8 @@ LearnTypeScript/
 │   ├── arrays.md
 │   ├── additional-types.md
 │   ├── conditionals-and-loops.md
-│   └── functions.md
+│   ├── functions.md
+│   └── promises-and-async-await.md
 ├── app.ts (your TypeScript code goes here)
 ├── tsconfig.json (TypeScript configuration)
 ├── package.json (project configuration)
